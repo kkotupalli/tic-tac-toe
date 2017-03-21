@@ -1,10 +1,12 @@
 class TicTacToe {
+    
     constructor() {
 
     }
 
     getCurrentPlayerSymbol() {
 
+        return 'x';
     }
 
     nextTurn(rowIndex, columnIndex) {
